@@ -25,7 +25,7 @@ Bancos de dados podem ser classificados em várias categorias:
 - **Armazenamento de Dados:** Onde os dados são fisicamente armazenados.
 - **Consultas:** Recuperação e manipulação de dados, geralmente usando SQL.
 - **Índices:** Aceleram a busca de dados.
-- **Transações:** Garantem operações seguras com propriedades ACID.
+- **Transações:** Garantem operações seguras com propriedades ACID (Atomicidade, Consistência, Isolamento e Durabilidade).
 - **Segurança:** Protege dados contra acessos não autorizados.
 
 ---

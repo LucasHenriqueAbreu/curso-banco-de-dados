@@ -9,13 +9,10 @@ theme: default
 
 ## Introdução a Banco de Dados
 
-**Docente**:  
-**Período**: 1  
+**Docente**: Lucas Henrique de Abreu
 **Carga horária total**: 90h  
 **CH teórica**: 60    **CH prática**: 30  
-**CH On line Assíncrona**: -    **CH On Line Síncrona**: -  
-**Estágio**: -  
-**Semestre**: 2024/01  
+**Semestre**: 2024/02  
 **Matriz Curricular**: 2024/2  
 
 ---
