@@ -1,3 +1,6 @@
+# Acesse o conteúdo
+![Repositório](./assets/acessoaorepositorio.png)
+
 # Sumário
 
 * [PLANO DE ENSINO](./plano_de_ensino/plano_de_ensino.md)
