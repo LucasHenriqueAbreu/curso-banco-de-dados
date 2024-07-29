@@ -1,5 +1,6 @@
 # Sumário
 
+* [PLANO DE ENSINO](./plano_de_ensino/plano_de_ensino.md)
 * [Introdução](./modulo1/README.md)
   - [O que são Bancos de Dados Relacionais?](./modulo1/what-are-relational-databases/README.md)
   - [Benefícios e Limitações do RDBMS](./modulo1/rdbms-benefits-and-limitations/README.md)
