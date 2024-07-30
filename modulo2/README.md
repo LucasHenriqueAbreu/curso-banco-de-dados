@@ -70,6 +70,7 @@ Saiba mais sobre SQL nos seguintes recursos:
 
 
 # Sumário
+- [Instalando o MySQL](./mysql/README.md)
 - [Palavras-chave SQL](./sql-keywords/README.md)
 - [Tipos de Dados](./data-types/README.md)
 - [Operadores](./operators/README.md)

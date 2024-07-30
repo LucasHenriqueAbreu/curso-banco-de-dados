@@ -10,6 +10,7 @@
   - [SQL vs NoSQL](./modulo1/sql-vs-nosql/README.md)
 
 * [Sintaxe Básica do SQL](./modulo2/README.md)
+  - [Instalando o MySQL](./modulo2/mysql/README.md)
   - [Palavras-chave SQL](./modulo2/sql-keywords/README.md)
   - [Tipos de Dados](./modulo2/data-types/README.md)
   - [Operadores](./modulo2/operators/README.md)
