@@ -109,3 +109,99 @@ Com o MySQL e o MySQL Workbench instalados, você pode começar a criar e gerenc
 Lembre-se de seguir as melhores práticas de segurança, como configurar um firewall, usar senhas fortes e, se possível, configurar o SSL para suas conexões.
 
 Se precisar de mais informações, consulte a documentação oficial do MySQL: [Documentação MySQL](https://dev.mysql.com/doc/).
+
+
+# Primeiros Passos no MySQL
+
+## Introdução
+
+Este guia aborda os passos iniciais para começar a trabalhar com MySQL, incluindo a criação de um banco de dados e uma tabela.
+
+---
+
+## 1. Acessando o MySQL
+
+### 1.1. Acesso pelo Terminal (MySQL CLI)
+
+1. Abra o terminal.
+2. Conecte-se ao MySQL utilizando o seguinte comando:
+
+   ```bash
+   mysql -u root -p
+   ```
+
+   Você será solicitado a inserir a senha do usuário `root`.
+
+### 1.2. Acesso pelo MySQL Workbench
+
+1. Abra o MySQL Workbench.
+2. Clique em "New Connection" para criar uma nova conexão ou selecione uma conexão existente.
+3. Insira os detalhes da conexão, incluindo o nome de usuário e senha, e clique em "OK" para conectar.
+
+---
+
+## 2. Criando um Banco de Dados
+
+Após conectar ao MySQL, você pode criar um novo banco de dados utilizando o seguinte comando:
+
+```sql
+CREATE DATABASE nome_do_banco;
+```
+
+Substitua `nome_do_banco` pelo nome que você deseja dar ao seu banco de dados.
+
+---
+
+## 3. Criando uma Tabela
+
+Para criar uma tabela dentro do banco de dados, siga os passos abaixo:
+
+1. Use o banco de dados criado com o comando:
+
+   ```sql
+   USE nome_do_banco;
+   ```
+
+2. Crie uma tabela com o comando:
+
+   ```sql
+   CREATE TABLE nome_da_tabela (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       nome VARCHAR(100),
+       email VARCHAR(100)
+   );
+   ```
+
+   Substitua `nome_da_tabela` pelo nome desejado para sua tabela. A tabela de exemplo contém três colunas: `id`, `nome` e `email`.
+
+---
+
+## 4. Inserindo Dados na Tabela
+
+Para inserir dados na tabela, use o comando `INSERT INTO`:
+
+```sql
+INSERT INTO nome_da_tabela (nome, email) VALUES ('João Silva', 'joao@example.com');
+```
+
+---
+
+## 5. Consultando Dados
+
+Para consultar dados da tabela, use o comando `SELECT`:
+
+```sql
+SELECT * FROM nome_da_tabela;
+```
+
+Esse comando retorna todos os registros da tabela.
+
+---
+
+## 6. Conclusão
+
+Com esses passos iniciais, você pode começar a trabalhar com bancos de dados e tabelas no MySQL. Para operações mais avançadas, consulte a documentação oficial do MySQL.
+
+---
+
+Se precisar de mais informações, consulte a documentação oficial do MySQL: [Documentação MySQL](https://dev.mysql.com/doc/).
