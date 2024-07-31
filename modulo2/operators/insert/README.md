@@ -36,3 +36,5 @@ WHERE condição;
 Em todos os casos, se você estiver inserindo dados em uma tabela onde algumas colunas têm valores padrão, você não precisa especificar essas colunas na sua instrução `INSERT INTO`.
 
 Nota: Tenha cuidado ao inserir dados em um banco de dados, pois SQL não possui um comando de confirmação. Portanto, uma vez que você execute a instrução de inserção, os registros são inseridos e você não pode desfazer a operação.
+
+[Página Anterior](../insert/README.md) - [Próxima Página](../update/README.md)

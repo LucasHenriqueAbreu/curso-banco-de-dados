@@ -78,3 +78,6 @@ Saiba mais sobre SQL nos seguintes recursos:
   - [INSERT](./operators/insert/README.md)
   - [UPDATE](./operators/update/README.md)
   - [DELETE](./operators/delete/README.md)
+
+
+[Página Anterior](../modulo1/sql-vs-nosql/README.md) - [Próxima Página](../modulo2/mysql/README.md)

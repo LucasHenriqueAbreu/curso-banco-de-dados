@@ -64,3 +64,5 @@ Lembre-se, o tipo de dado do resultado depende dos tipos dos operandos.
 - [INSERT](./insert/README.md)
 - [UPDATE](./update/README.md)
 - [DELETE](./delete/README.md)
+
+[Página Anterior](../data-types/README.md) - [Próxima Página](../operators/select/README.md)

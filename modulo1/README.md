@@ -49,3 +49,6 @@ Saiba mais sobre bancos de dados nos seguintes recursos:
   - [O que são Bancos de Dados Relacionais?](./what-are-relational-databases/README.md)
   - [Benefícios e Limitações do RDBMS](./rdbms-benefits-and-limitations/README.md)
   - [SQL vs NoSQL](./sql-vs-nosql/README.md)
+
+
+[Página Anterior](./../plano_de_ensino/plano_de_ensino.md) - [Próxima Página](../modulo1/what-are-relational-databases/README.md)

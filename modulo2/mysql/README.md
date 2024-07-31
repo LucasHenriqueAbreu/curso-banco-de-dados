@@ -205,3 +205,6 @@ Com esses passos iniciais, você pode começar a trabalhar com bancos de dados e
 ---
 
 Se precisar de mais informações, consulte a documentação oficial do MySQL: [Documentação MySQL](https://dev.mysql.com/doc/).
+
+
+[Página Anterior](../README.md) - [Próxima Página](../sql-keywords/README.md)

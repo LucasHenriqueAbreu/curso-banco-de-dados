@@ -53,3 +53,5 @@ ORDER BY Country DESC;
 ```
 
 Esses são os conceitos básicos da instrução `SELECT` em SQL, que é uma parte vital do trabalho com bancos de dados.
+
+[Página Anterior](../README.md) - [Próxima Página](../insert/README.md)

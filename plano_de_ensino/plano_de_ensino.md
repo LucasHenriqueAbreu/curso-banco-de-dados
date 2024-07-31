@@ -115,3 +115,6 @@ Os instrumentos de avaliação incluem provas teóricas, exercícios práticos, 
 1. OLIVEIRA, Celso Henrique Poderoso de. *SQL: Curso Prático*. São Paulo: Novatec, 2010.  
 2. PETER, Robert; CORONEL, Carlos. *Sistemas de Banco de Dados: Projeto, Implementação e Administração*. 8ª ed. São Paulo: Cengage Learning, 2011.  
 3. RAMAKRISHNAN, Raghu; GEHRKE, Johannes. *Sistemas de Gerenciamento de Bancos de Dados*. 3ª ed. Porto Alegre: McGraw-Hill, 2008.
+
+
+[Página Anterior](./../README.md) - [Próxima Página](../modulo1/README.md)

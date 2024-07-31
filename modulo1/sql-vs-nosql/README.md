@@ -44,3 +44,5 @@ Este guia foca no MongoDB, um popular banco de dados NoSQL que usa um modelo de 
 - [@article@SQL vs. NoSQL Databases: What’s the Difference?](https://www.ibm.com/blog/sql-vs-nosql/)
 - [@article@NoSQL vs. SQL Databases](https://www.mongodb.com/nosql-explained/nosql-vs-sql)
 - [@feed@Explore top posts about NoSQL](https://app.daily.dev/tags/nosql?ref=roadmapsh)
+
+[Página Anterior](../rdbms-benefits-and-limitations/README.md) - [Próxima Página](../../modulo2/README.md)

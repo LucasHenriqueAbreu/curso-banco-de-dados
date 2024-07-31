@@ -43,3 +43,5 @@ Isso alteraria permanentemente os dados na tabela `Employees`:
 | 3          | Bob     | Engineer | 45000  |
 
 Sempre tenha cuidado com a instrução `UPDATE`; se você esquecer a cláusula `WHERE`, você atualizará todas as linhas na tabela.
+
+[Página Anterior](../update/README.md) - [Próxima Página](../delete/README.md)

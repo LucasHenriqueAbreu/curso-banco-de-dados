@@ -77,3 +77,6 @@ CREATE TABLE Orders (
 `BOOLEAN` é usado para valores booleanos (`TRUE` ou `FALSE`).
 
 **Lembre-se**, a sintaxe específica para criar tabelas e definir tipos de dados de colunas pode variar ligeiramente dependendo do banco de dados SQL que você está usando (MySQL, PostgreSQL, SQL Server, SQLite, Oracle, etc.), mas o conceito geral e a organização dos tipos de dados são cross-platform.
+
+
+[Página Anterior](../data-types/README.md) - [Próxima Página](../operators/README.md)

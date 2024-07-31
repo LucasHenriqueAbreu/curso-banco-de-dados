@@ -38,3 +38,5 @@ INNER JOIN Employees ON Orders.EmployeeId = Employees.EmployeeId;
 
 O código SQL acima é um exemplo de como recuperar dados de um banco de dados relacional usando uma cláusula JOIN para combinar linhas de duas ou mais tabelas.
 No geral, os bancos de dados relacionais fornecem um mecanismo poderoso para definir relacionamentos dentro dos dados e permitir a recuperação eficiente de dados.
+
+[Página Anterior](../README.md) - [Próxima Página](../rdbms-benefits-and-limitations/README.md)

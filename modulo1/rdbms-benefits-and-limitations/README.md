@@ -25,3 +25,6 @@ Aqui estão algumas das limitações de usar um RDBMS:
 - **Manipulação de Dados Não Estruturados**: Os RDBMSs não são adequados para a manipulação de dados não estruturados, como arquivos multimídia, postagens em redes sociais e dados de sensores, pois sua estrutura relacional é otimizada para dados estruturados.
 
 - **Escalabilidade Horizontal**: Os RDBMSs não são facilmente escaláveis horizontalmente como os bancos de dados NoSQL. Escalar horizontalmente, que envolve adicionar mais máquinas ao sistema, pode ser desafiador em termos de custo e complexidade.
+
+
+[Página Anterior](../what-are-relational-databases/README.md)  - [Próxima Página](../sql-vs-nosql/README.md)
