@@ -55,5 +55,9 @@ Saiba mais sobre SQL nos seguintes recursos:
 - [@article@SQL Tutorial](https://www.sqltutorial.org/)
 - [@article@SQL Tutorial - W3Schools](https://www.w3schools.com/sql/default.asp)
 
+Recursos da aula:
+- [Script da aula](./aula/README.md)
+- [Exercícios](./exercicios/README.md)
+
 
 [Página Anterior](../mysql/README.md) - [Próxima Página](../data-types/README.md)
