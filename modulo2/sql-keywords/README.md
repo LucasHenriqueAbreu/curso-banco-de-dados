@@ -56,8 +56,15 @@ Saiba mais sobre SQL nos seguintes recursos:
 - [@article@SQL Tutorial - W3Schools](https://www.w3schools.com/sql/default.asp)
 
 Recursos da aula:
-- [Script da aula](./aula/README.md)
-- [Exercícios](./exercicios/README.md)
+- [Script da aula1](./aulas/aula1/README.md)
+- [Script da aula2](./aulas/aula2/README.md)
+- [Exercícios](./aulas/exercicios/README.md)
 
 
-[Página Anterior](../mysql/README.md) - [Próxima Página](../data-types/README.md)
+# Sumário
+- [SELECT](./select/README.md)
+- [INSERT](./insert/README.md)
+- [UPDATE](./update/README.md)
+- [DELETE](./delete/README.md)
+
+[Página Anterior](../mysql/README.md) - [Próxima Página](./select/README.md)

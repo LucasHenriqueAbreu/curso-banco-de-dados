@@ -12,10 +12,10 @@ Os operadores SQL são usados para realizar operações como comparações e cá
 
    Exemplo:
 
-    \```sql
+    ```sql
     SELECT product, price, (price * 0.18) as tax
     FROM products;
-    \```
+    ```
 
 2. **Operadores de Comparação**: Estes são usados na cláusula WHERE para comparar uma expressão com outra. Alguns desses operadores são:
 
@@ -28,11 +28,11 @@ Os operadores SQL são usados para realizar operações como comparações e cá
 
    Exemplo:
 
-    \```sql
+    ```sql
     SELECT name, age
     FROM students
     WHERE age > 18;
-    \```
+    ```
 
 3. **Operadores Lógicos**: Eles são usados para combinar o conjunto de resultados de duas condições diferentes. Estes incluem:
 
@@ -42,11 +42,11 @@ Os operadores SQL são usados para realizar operações como comparações e cá
 
    Exemplo:
 
-    \```sql
+    ```sql
     SELECT * 
     FROM employees
     WHERE salary > 50000 AND age < 30;
-    \```
+    ```
 
 4. **Operadores Bitwise**: Estes realizam operações a nível de bits sobre os operandos. Aqui está uma lista desses operadores:
 
@@ -58,11 +58,8 @@ Os operadores SQL são usados para realizar operações como comparações e cá
 
 Lembre-se, o tipo de dado do resultado depende dos tipos dos operandos.
 
+Recursos da aula:
+- [Script da aula](./aula/README.md)
+- [Exercícios](./exercicios/README.md)
 
-# Sumário
-- [SELECT](./select/README.md)
-- [INSERT](./insert/README.md)
-- [UPDATE](./update/README.md)
-- [DELETE](./delete/README.md)
-
-[Página Anterior](../data-types/README.md) - [Próxima Página](../operators/select/README.md)
+[Página Anterior](../data-types/README.md) - [Próxima Página](../my/README.md)

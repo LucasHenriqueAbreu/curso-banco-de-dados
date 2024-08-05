@@ -68,16 +68,14 @@ Saiba mais sobre SQL nos seguintes recursos:
 - [@article@SQL Tutorial - W3Schools](https://www.w3schools.com/sql/default.asp)
 
 
-
 # Sumário
 - [Instalando o MySQL](./mysql/README.md)
 - [Palavras-chave SQL](./sql-keywords/README.md)
-- [Tipos de Dados](./data-types/README.md)
-- [Operadores](./operators/README.md)
   - [SELECT](./operators/select/README.md)
   - [INSERT](./operators/insert/README.md)
   - [UPDATE](./operators/update/README.md)
   - [DELETE](./operators/delete/README.md)
-
+- [Tipos de Dados](./data-types/README.md)
+- [Operadores](./operators/README.md)
 
 [Página Anterior](../modulo1/sql-vs-nosql/README.md) - [Próxima Página](../modulo2/mysql/README.md)

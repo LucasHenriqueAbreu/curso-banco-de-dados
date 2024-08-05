@@ -28,4 +28,4 @@ Com a instrução `DELETE`, você pode realizar as seguintes ações:
 
 *Nota: A exclusão realizada pela instrução "DELETE" é permanente e não pode ser desfeita. Sempre assegure-se de ter um backup antes de executar uma consulta DELETE, especialmente quando for em um banco de dados de produção.*
 
-[Página Anterior](../update/README.md) - [Próxima Página](../../../modulo3/README.md)
+[Página Anterior](../update/README.md) - [Próxima Página](../../data-types/README.md)

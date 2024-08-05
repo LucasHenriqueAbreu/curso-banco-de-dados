@@ -78,5 +78,9 @@ CREATE TABLE Orders (
 
 **Lembre-se**, a sintaxe específica para criar tabelas e definir tipos de dados de colunas pode variar ligeiramente dependendo do banco de dados SQL que você está usando (MySQL, PostgreSQL, SQL Server, SQLite, Oracle, etc.), mas o conceito geral e a organização dos tipos de dados são cross-platform.
 
+Recursos da aula:
+- [Script da aula](./aula/README.md)
+- [Exercícios](./exercicios/README.md)
+
 
 [Página Anterior](../data-types/README.md) - [Próxima Página](../operators/README.md)
