@@ -10,7 +10,7 @@
 
 ## 2. Criação de um Banco de Dados
 - **Objetivo**: Ensinar a criar um banco de dados.
-- **Explicação Teórica**:
+- **Explicação Teórica**: 
   - O comando `CREATE DATABASE` é usado para criar um novo banco de dados.
 - **Analogia em Português**:
   - PT: "Vamos construir uma nova biblioteca chamada Mercearia."
