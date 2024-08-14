@@ -28,6 +28,8 @@
 * [Linguagem de Manipulação de Dados (DML)](./modulo4/README.md)
 * [Consultas Agregadas e ordenação](./modulo5/README.md)
 
+* [Trabalho 1](./trabalhos/trabalho1/README.md)
+
 * [Restrições de Dados](./modulo6/README.md)
   - [Primary Key](./modulo6/primary-key/README.md)
   - [Foreign Key](./modulo6/foreign-key/README.md)
