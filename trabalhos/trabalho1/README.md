@@ -63,7 +63,7 @@ INSERT INTO cidadaos (id, nome, idade, sexo, bairro, doenca) VALUES
 ## Tarefas
 
 ### Tarefa 1: Distribuição Etária
-Crie uma consulta que mostre a distribuição etária dos cidadãos por faixa etária. Quantas pessoas estão em cada faixa etária?
+Crie consultas que mostre a distribuição etária dos cidadãos por faixa etária. Quantas pessoas estão em cada faixa etária?
 
 ### Tarefa 2: Análise de Doenças por Sexo
 Faça uma análise das doenças mais comuns por sexo. Quantos homens e quantas mulheres sofrem de cada doença?
