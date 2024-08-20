@@ -127,5 +127,6 @@ CREATE TABLE Funcionarios (
 
 ## Materiais de Apoio
 - [Exercícios Práticos](../exercicios/README.md)
+- [Quizz](https://quizizz.com/admin/quiz/66c502251dba3184b1d0b3d7?source=quiz_share)
 
 ---
