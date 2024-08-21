@@ -123,6 +123,8 @@ CREATE TABLE Funcionarios (
   - **Resumo**: Revisar os principais conceitos de restrições em SQL.
   - **Próximos Passos**: Explorar comandos avançados de manipulação de dados (DML) em SQL na próxima aula.
 
+
+
 ---
 
 ## Materiais de Apoio
