@@ -37,6 +37,8 @@
   - [NOT NULL](./modulo6/not-null/README.md)
   - [CHECK](./modulo6/check/README.md)
 
+* [Trabalho 2](./trabalhos/trabalho2/README.md)
+
 * [Consultas de Junção](./modulo7/README.md)
   - [Inner Join](./modulo7/inner-join/README.md)
   - [Left Join](./modulo7/left-join/README.md)
