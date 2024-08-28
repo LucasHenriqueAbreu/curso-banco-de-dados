@@ -86,16 +86,6 @@ Nesta atividade, você será responsável por modelar, criar e popular um banco 
 
 ---
 
-## Etapa 5: Alterações no Banco de Dados
-
-### 5.1. Adicionar um Campo `Desconto` na Tabela `ItemNota`
-- **Instrução**: Adicione uma coluna `Desconto` (DECIMAL) à tabela `ItemNota` para permitir descontos em itens.
-
-### 5.2. Atualizar Dados na Tabela `Produto`
-- **Instrução**: Atualize o preço unitário de todos os produtos, aplicando um aumento de 10%.
-
----
-
 ## Entregáveis
 
 Os seguintes itens deverão ser entregues ao final da atividade:
