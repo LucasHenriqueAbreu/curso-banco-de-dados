@@ -1,3 +1,11 @@
+---
+marp: true
+title: Plano de Ensino – Introdução a Banco de Dados
+paginate: true
+theme: default
+---
+
+
 # Aula: Consultas SQL com JOIN
 
 ## 1. Introdução aos JOINs em SQL
@@ -18,7 +26,10 @@
     - Se não houver correspondência, nenhum registro é retornado.
   - **Exemplo em Português**:
     - PT: "Vamos combinar as tabelas `Clientes` e `Pedidos` para mostrar todos os pedidos com as informações dos clientes correspondentes."
-  - **Execução no MySQL**:
+  
+---
+
+- **Execução no MySQL**:
 ```sql
 SELECT Clientes.Nome, Pedidos.OrderID
 FROM Clientes
@@ -34,7 +45,9 @@ ON Clientes.ClienteID = Pedidos.ClienteID;
     - Útil para encontrar registros que podem não ter correspondência em outra tabela.
   - **Exemplo em Português**:
     - PT: "Vamos listar todos os clientes e, se tiverem, os pedidos correspondentes."
-  - **Execução no MySQL**:
+
+---
+- **Execução no MySQL**:
 ```sql
 SELECT Clientes.Nome, Pedidos.OrderID
 FROM Clientes
@@ -50,7 +63,10 @@ ON Clientes.ClienteID = Pedidos.ClienteID;
     - Similar ao `LEFT JOIN`, mas retorna todos os registros da tabela à direita.
   - **Exemplo em Português**:
     - PT: "Vamos listar todos os pedidos e, se houver, os clientes correspondentes."
-  - **Execução no MySQL**:
+
+---
+
+- **Execução no MySQL**:
 ```sql
 SELECT Clientes.Nome, Pedidos.OrderID
 FROM Clientes
@@ -66,7 +82,10 @@ ON Clientes.ClienteID = Pedidos.ClienteID;
     - Requer o uso de aliases para diferenciar as instâncias da tabela.
   - **Exemplo em Português**:
     - PT: "Vamos encontrar os funcionários e seus respectivos gerentes."
-  - **Execução no MySQL**:
+
+---
+
+- **Execução no MySQL**:
 ```sql
 SELECT a.Nome AS Empregado, b.Nome AS Gerente
 FROM Funcionarios a, Funcionarios b
@@ -81,7 +100,10 @@ WHERE a.ManagerID = b.EmployeeID;
     - Não requer condição para a junção e pode gerar um grande número de registros.
   - **Exemplo em Português**:
     - PT: "Vamos combinar todos os produtos com todas as categorias."
-  - **Execução no MySQL**:
+
+---
+
+- **Execução no MySQL**:
 ```sql
 SELECT Produtos.Nome, Categorias.Nome
 FROM Produtos
@@ -105,16 +127,6 @@ CROSS JOIN Categorias;
     3. **RIGHT JOIN**: Liste todos os pedidos e os clientes correspondentes, se houver.
     4. **SELF JOIN**: Encontre os funcionários e seus respectivos gerentes.
     5. **CROSS JOIN**: Gere uma lista combinando todas as categorias com todos os produtos.
-
----
-
-## 9. Perguntas e Respostas
-
----
-
-## 10. Encerramento
-  - **Resumo**: Revisar os conceitos e a aplicação dos diferentes tipos de `JOIN` em SQL.
-  - **Próximos Passos**: Explorar consultas avançadas e a otimização de `JOINs` na próxima aula.
 
 ---
 
