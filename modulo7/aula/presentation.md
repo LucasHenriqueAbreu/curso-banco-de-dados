@@ -1,10 +1,10 @@
+
 ---
 marp: true
 title: Plano de Ensino – Introdução a Banco de Dados
 paginate: true
 theme: default
 ---
-
 
 # Aula: Consultas SQL com JOIN
 
@@ -26,16 +26,24 @@ theme: default
     - Se não houver correspondência, nenhum registro é retornado.
   - **Exemplo em Português**:
     - PT: "Vamos combinar as tabelas `Clientes` e `Pedidos` para mostrar todos os pedidos com as informações dos clientes correspondentes."
-  
+
 ---
 
 - **Execução no MySQL**:
-```sql
+/```sql
 SELECT Clientes.Nome, Pedidos.OrderID
 FROM Clientes
 INNER JOIN Pedidos
 ON Clientes.ClienteID = Pedidos.ClienteID;
-```
+/```
+
+**Resultado Exemplo**:
+
+| Nome         | OrderID |
+|--------------|---------|
+| João Silva   | 101     |
+| Maria Souza  | 102     |
+| João Silva   | 103     |
 
 ---
 
@@ -48,12 +56,21 @@ ON Clientes.ClienteID = Pedidos.ClienteID;
 
 ---
 - **Execução no MySQL**:
-```sql
+/```sql
 SELECT Clientes.Nome, Pedidos.OrderID
 FROM Clientes
 LEFT JOIN Pedidos
 ON Clientes.ClienteID = Pedidos.ClienteID;
-```
+/```
+
+**Resultado Exemplo**:
+
+| Nome         | OrderID |
+|--------------|---------|
+| João Silva   | 101     |
+| João Silva   | 103     |
+| Maria Souza  | 102     |
+| Carlos Almeida | NULL    |
 
 ---
 
@@ -67,12 +84,21 @@ ON Clientes.ClienteID = Pedidos.ClienteID;
 ---
 
 - **Execução no MySQL**:
-```sql
+/```sql
 SELECT Clientes.Nome, Pedidos.OrderID
 FROM Clientes
 RIGHT JOIN Pedidos
 ON Clientes.ClienteID = Pedidos.ClienteID;
-```
+/```
+
+**Resultado Exemplo**:
+
+| Nome         | OrderID |
+|--------------|---------|
+| João Silva   | 101     |
+| Maria Souza  | 102     |
+| João Silva   | 103     |
+| NULL         | 104     |
 
 ---
 
@@ -86,11 +112,18 @@ ON Clientes.ClienteID = Pedidos.ClienteID;
 ---
 
 - **Execução no MySQL**:
-```sql
+/```sql
 SELECT a.Nome AS Empregado, b.Nome AS Gerente
 FROM Funcionarios a, Funcionarios b
 WHERE a.ManagerID = b.EmployeeID;
-```
+/```
+
+**Resultado Exemplo**:
+
+| Empregado     | Gerente     |
+|---------------|-------------|
+| Maria Souza   | João Silva  |
+| Carlos Almeida| João Silva  |
 
 ---
 
@@ -104,11 +137,20 @@ WHERE a.ManagerID = b.EmployeeID;
 ---
 
 - **Execução no MySQL**:
-```sql
+/```sql
 SELECT Produtos.Nome, Categorias.Nome
 FROM Produtos
 CROSS JOIN Categorias;
-```
+/```
+
+**Resultado Exemplo**:
+
+| Nome Produto | Nome Categoria |
+|--------------|----------------|
+| Caneta       | Escritório     |
+| Caneta       | Escolar        |
+| Caderno      | Escritório     |
+| Caderno      | Escolar        |
 
 ---
 

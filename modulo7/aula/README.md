@@ -1,5 +1,7 @@
 # Aula: Consultas SQL com JOIN
 
+[Banco de dados para exemplos](./banco_exemplo.sql)
+
 ## 1. Introdução aos JOINs em SQL
   - **Objetivo**: Apresentar os diferentes tipos de `JOIN` em SQL e como eles são usados para combinar dados de várias tabelas.
   - **Tipos de JOIN**:
