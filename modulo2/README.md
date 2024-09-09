@@ -79,3 +79,6 @@ Saiba mais sobre SQL nos seguintes recursos:
 - [Operadores](./operators/README.md)
 
 [Página Anterior](../modulo1/sql-vs-nosql/README.md) - [Próxima Página](../modulo2/mysql/README.md)
+
+<!-- TODO: adicionar este conteúdo:
+[Tipos diferentes(./different-types/README.md) -->

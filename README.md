@@ -46,3 +46,9 @@
   - [Full Outer Join](./modulo7/full-outer-join/README.md)
   - [Self Join](./modulo7/self-join/README.md)
   - [Cross Join](./modulo7/cross-join/README.md)
+
+
+* [Subconsultas](./modulo8/README.md)
+  - [Inner Join](./modulo8/asss/README.md)
+  - [Left Join](./modulo8/asss/README.md)
+  - [Right Join](./modulo8/asss/README.md)
