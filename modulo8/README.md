@@ -5,8 +5,8 @@ Subconsultas, também conhecidas como consultas aninhadas ou consultas internas,
 Saiba mais nos seguintes recursos:
 
 ## Sumário
-- [Subconsultas Aninhadas](./modulo8/nested/README.md)
-- [Subconsultas Correlacionadas](./modulo8/correlated/README.md)
+- [Subconsultas Aninhadas](./nested/README.md)
+- [Subconsultas Correlacionadas](./correlated/README.md)
 
 - [Aula](./aula/README.md)
 - [Exercícios](./exercicios/README.md)

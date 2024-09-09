@@ -1,3 +1,9 @@
+---
+marp: true
+title: Plano de Ensino – Introdução a Banco de Dados
+paginate: true
+theme: default
+---
 
 # Aula: Subconsultas em SQL
 
@@ -8,6 +14,8 @@
 - **Explicação Teórica**:
   - **Subconsultas**: Também conhecidas como consultas internas, são consultas SQL colocadas dentro de outra consulta.
   - Podem ser usadas para isolar lógicas complexas ou obter resultados intermediários que podem ser referenciados na consulta externa.
+
+---
 
 - **Exemplo Básico**:
   - "Listar personagens que têm nível superior à média de todos os personagens."
@@ -26,6 +34,8 @@
   - **Subconsultas Aninhadas**: São subconsultas inseridas dentro de outra subconsulta. Essas subconsultas podem ser usadas em várias partes de uma consulta SQL, como `FROM` e `WHERE`.
   - Não envolvem correlação com a consulta externa (ou seja, não dependem de valores da consulta principal).
   - Utilizam valores independentes das tabelas da consulta principal.
+
+---
 
 ### Exemplos de Uso:
 

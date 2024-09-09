@@ -49,6 +49,5 @@
 
 
 * [Subconsultas](./modulo8/README.md)
-  - [Inner Join](./modulo8/asss/README.md)
-  - [Left Join](./modulo8/asss/README.md)
-  - [Right Join](./modulo8/asss/README.md)
+  - [Subconsultas Correlacionadas](./modulo8/correlated/README.md)
+  - [Subconsultas Aninhadas](./modulo8/nested/README.md)
