@@ -47,6 +47,7 @@
   - [Self Join](./modulo7/self-join/README.md)
   - [Cross Join](./modulo7/cross-join/README.md)
 
+* [Trabalho 3](./trabalhos/trabalho3/README.md)
 
 * [Subconsultas](./modulo8/README.md)
   - [Subconsultas Correlacionadas](./modulo8/correlated/README.md)
