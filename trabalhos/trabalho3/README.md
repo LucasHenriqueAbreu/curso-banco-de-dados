@@ -224,8 +224,6 @@ O restaurante precisa de uma funcionalidade para permitir que os clientes reserv
     - `hora_reserva` (TIME) – Hora da reserva.
     - `quantidade_pessoas` (INT) – Número de pessoas para a reserva.
 
-Você deve garantir que a reserva não seja duplicada para a mesma mesa no mesmo horário e que a capacidade da mesa seja respeitada de acordo com a quantidade de pessoas.
-
 Após criar essa rotina, insira dados de teste simulando reservas de clientes em diferentes dias e horários.
 
 ---
