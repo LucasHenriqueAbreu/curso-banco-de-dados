@@ -171,3 +171,4 @@
 
 **10.** Insira cinco registros fictícios na tabela `livros` e, em seguida, escreva uma consulta SQL que mostre todos os livros publicados após o ano de 2015.
 
+[Gabarito](./gabarito/README.md)

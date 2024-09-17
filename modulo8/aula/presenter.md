@@ -10,8 +10,6 @@ theme: default
 [Script para aula](./banco_script.sql)
 
 ## 1. Subconsultas
-- **Objetivo**: Introduzir o conceito de subconsultas, mostrando como elas podem ser utilizadas para realizar consultas complexas de forma modular.
-- **Explicação Teórica**:
   - **Subconsultas**: Também conhecidas como consultas internas, são consultas SQL colocadas dentro de outra consulta.
   - Podem ser usadas para isolar lógicas complexas ou obter resultados intermediários que podem ser referenciados na consulta externa.
 
@@ -29,8 +27,6 @@ theme: default
 ---
 
 ## 2. Subconsultas Aninhadas
-- **Objetivo**: Apresentar o conceito de subconsultas aninhadas, mostrando como criar subconsultas dentro de outras subconsultas.
-- **Explicação Teórica**:
   - **Subconsultas Aninhadas**: São subconsultas inseridas dentro de outra subconsulta. Essas subconsultas podem ser usadas em várias partes de uma consulta SQL, como `FROM` e `WHERE`.
   - Não envolvem correlação com a consulta externa (ou seja, não dependem de valores da consulta principal).
   - Utilizam valores independentes das tabelas da consulta principal.
@@ -51,6 +47,7 @@ theme: default
       WHERE racaid = (SELECT racaid FROM racas WHERE nomeraca = 'elfo')
   );
   ```
+---
 
 #### **Subconsulta Aninhada no `FROM`**:
   - "Mostrar a média de poder dos personagens de cada raça."
@@ -67,9 +64,9 @@ theme: default
 ---
 
 ## 3. Subconsultas Correlacionadas
-- **Objetivo**: Explicar o conceito de subconsultas correlacionadas, que dependem de valores da consulta externa.
-- **Explicação Teórica**:
   - **Subconsultas Correlacionadas**: São subconsultas que utilizam valores da consulta externa para serem avaliadas. São recalculadas para cada linha processada pela consulta principal.
+
+---
 
 ### Exemplos de Uso:
 
@@ -83,6 +80,7 @@ theme: default
           WHERE p1.racaid = p2.racaid) AS mediapoder_raca
   FROM personagens p1;
   ```
+---
 
 #### **Subconsulta Correlacionada no `FROM`**:
   - "Listar as raças com o poder médio de seus personagens, calculado dinamicamente."
@@ -101,6 +99,8 @@ theme: default
   ) AS subquery;
   ```
 
+---
+
 #### **Subconsulta Correlacionada no `WHERE`**:
   - "Mostrar os personagens cujo poder é maior do que o poder médio dos personagens da mesma raça."
 
@@ -113,6 +113,8 @@ theme: default
       WHERE p1.racaid = p2.racaid
   );
   ```
+
+---
 
 #### **Subconsulta Correlacionada no `HAVING`**:
   - "Listar as raças que têm um nível médio superior ao nível médio de todos os personagens de outras raças."
@@ -140,6 +142,8 @@ theme: default
 
 ## 5. Exercícios Práticos
 
+[Quizz](https://quizizz.com/admin/quiz/66df6c83918d87c0de877ad4?source=quiz_share)
+
 ### **Exercício 1: Subconsulta Simples**
 Liste todos os personagens cujo poder é maior que a média de poder de todos os personagens.
 
@@ -152,7 +156,6 @@ Liste todos os personagens que possuem um nível superior ao nível médio de ou
 ---
 
 ## 6. Perguntas e Respostas
-- **Objetivo**: Esclarecer dúvidas sobre o uso de subconsultas, subconsultas aninhadas e subconsultas correlacionadas.
 
 ---
 
