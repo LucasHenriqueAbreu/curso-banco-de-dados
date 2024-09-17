@@ -1,6 +1,4 @@
-
 # Prova de Revisão
-
 ## Questões Objetivas
 
 **1.** O comando `SELECT` é usado para:
@@ -90,7 +88,7 @@
 **15.** Para ordenar os resultados de uma consulta em ordem decrescente, você usa:
 - a) GROUP BY
 - b) ORDER BY
-- c) DESC
+- c) ORDER BY DESC
 - d) ASC
 
 **16.** A função `AVG()`:
@@ -150,6 +148,54 @@
 ---
 
 ## Questões Práticas
+
+## Tabelas Utilizadas
+
+### Tabela `alunos` 
+- **Descrição**: Esta tabela armazena os dados dos alunos, como identificação, nome, data de nascimento e email.
+- **Colunas**:
+  - `id` (INT, chave primária)
+  - `nome` (VARCHAR)
+  - `data_nascimento` (DATE)
+  - `email` (VARCHAR)
+
+### Tabela `matriculas` 
+- **Descrição**: Esta tabela armazena a relação entre alunos e os cursos em que estão matriculados.
+- **Colunas**:
+  - `id_matricula` (INT, chave primária)
+  - `id_aluno` (INT, chave estrangeira referenciando `alunos.id`)
+  - `id_curso` (INT, chave estrangeira referenciando `cursos.id`)
+
+### Tabela `cursos` 
+- **Descrição**: Esta tabela armazena informações sobre os cursos oferecidos.
+- **Colunas**:
+  - `id` (INT, chave primária)
+  - `nome_curso` (VARCHAR)
+  - `descricao` (TEXT)
+
+### Tabela `reservas` 
+- **Descrição**: Esta tabela armazena informações sobre as reservas feitas por clientes.
+- **Colunas**:
+  - `id_reserva` (INT, chave primária)
+  - `id_cliente` (INT, chave estrangeira referenciando `clientes.id`)
+  - `data_reserva` (DATE)
+
+### Tabela `clientes` 
+- **Descrição**: Esta tabela armazena os dados dos clientes que fazem reservas.
+- **Colunas**:
+  - `id` (INT, chave primária)
+  - `nome_cliente` (VARCHAR)
+  - `email_cliente` (VARCHAR)
+
+### Tabela `livros` 
+- **Descrição**: Esta tabela armazena informações sobre os livros disponíveis.
+- **Colunas**:
+  - `id` (INT, chave primária)
+  - `titulo` (VARCHAR)
+  - `autor` (VARCHAR)
+  - `ano_publicacao` (INT)
+
+---
 
 **1.** Escreva uma consulta SQL para criar uma tabela chamada `alunos` com as colunas `id` (chave primária), `nome` (VARCHAR), `data_nascimento` (DATE) e `email` (VARCHAR).
 
