@@ -18,3 +18,5 @@ Essas propriedades são essenciais para a confiabilidade das operações em banc
 - [Consistência](./consistencia/README.md)
 - [Isolamento](./isolamento/README.md)
 - [Durabilidade](./durabilidade/README.md)
+- [Aula](./aula/README.md)
+- [Exercícios](./exercicios/README.md)

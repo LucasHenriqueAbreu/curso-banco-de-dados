@@ -122,5 +122,6 @@ COMMIT;
 
 ## Materiais de Apoio
 - [Exercícios Práticos](../exercicios/README.md)
+- https://quizizz.com/admin/quiz/67044d215119e20f610ffe17?source=quiz_share
 
 ---
