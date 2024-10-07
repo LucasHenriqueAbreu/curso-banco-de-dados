@@ -54,3 +54,17 @@
   - [Subconsultas Aninhadas](./modulo8/nested/README.md)
 
 * [Prova N1 - Revisão](./trabalhos/provan1revisao/README.md)
+
+* [ACID](./modulo9/README.md)
+  - [Transação](./modulo9/transacao/README.md)
+  - [Atomicidade](./modulo9/atomicidade/README.md)
+  - [Consistência](./modulo9/consistencia/README.md)
+  - [Isolamento](./modulo9/isolamento/README.md)
+  - [Durabilidade](./modulo9/durabilidade/README.md)
+
+<!-- * [MongoDB Basics](./modulo9/README.md)
+  - [Sql vs Nosql](./modulo10/sql-vs-nosql.md)
+  - [O que é o Mongo](./modulo10/what-is-mongodb.md)
+  - [Quando usar MongoDB](./modulo10/when-to-use-mongodb.md)
+  - [O que é o Mongodb Atlas](./modulo10/what-is-mongodb-atlas.md)
+  - [Terminologia do Mongodb](./modulo10/mongodb-terminology.md) -->
