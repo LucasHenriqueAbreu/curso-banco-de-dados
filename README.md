@@ -62,6 +62,9 @@
   - [Isolamento](./modulo9/isolamento/README.md)
   - [Durabilidade](./modulo9/durabilidade/README.md)
 
+* [Trabalho Interdisciplinar](./trabalhos/interdisciplinar/README.md)
+
+
 <!-- * [MongoDB Basics](./modulo9/README.md)
   - [Sql vs Nosql](./modulo10/sql-vs-nosql.md)
   - [O que é o Mongo](./modulo10/what-is-mongodb.md)
