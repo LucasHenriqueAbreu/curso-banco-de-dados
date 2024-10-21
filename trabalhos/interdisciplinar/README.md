@@ -178,7 +178,7 @@ import java.sql.Statement;
 // Classe responsável por gerenciar a conexão com o banco de dados
 public class DatabaseConnection {
     // URL do banco de dados, com endereço, porta e nome do banco
-    private static final String URL = "jdbc:mysql://localhost:3306/rpg";
+    private static final String URL = "jdbc:mysql://localhost:3306/";
     // Usuário para acessar o banco de dados
     private static final String USER = "seu_usuario";
     // Senha para acessar o banco de dados
