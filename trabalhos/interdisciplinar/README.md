@@ -177,6 +177,8 @@ import java.sql.Statement;
 
 // Classe responsável por gerenciar a conexão com o banco de dados
 public class DatabaseConnection {
+    // Nome do banco de dados para ser usado depois
+    private static final String DATABASE_NAME = "nome do seu banco";
     // URL do banco de dados, com endereço, porta e nome do banco
     private static final String URL = "jdbc:mysql://localhost:3306/";
     // Usuário para acessar o banco de dados
@@ -188,8 +190,10 @@ public class DatabaseConnection {
 
     // Método para conectar ao banco de dados e inicializar se necessário
     public static Connection conectar() throws SQLException {
+        final String fullUrl = databaseInitialized ? URL + DATABASE_NAME : URL;
+        System.out.println("Tentando conectar com" + fullUrl);
         // Estabelece a conexão com o banco de dados usando as credenciais fornecidas
-        Connection conexao = DriverManager.getConnection(URL, USER, PASSWORD);
+        Connection conexao = DriverManager.getConnection(fullUrl, USER, PASSWORD);
         // Verifica se o banco já foi inicializado
         if (!databaseInitialized) {
             // Inicializa o banco de dados, executando o script SQL necessário
