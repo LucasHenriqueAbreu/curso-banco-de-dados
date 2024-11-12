@@ -63,6 +63,7 @@
   - [Durabilidade](./modulo9/durabilidade/README.md)
 
 * [Trabalho Interdisciplinar](./trabalhos/interdisciplinar/README.md)
+* [Revisão da prova para estudo](./prova_revisao/README.md)
 
 
 <!-- * [MongoDB Basics](./modulo9/README.md)
